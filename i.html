@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Room</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="icons/all.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"  crossorigin="anonymous">
+        <style>
+            body
+            {
+                background: url("Index Photos/Background.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!--C1:Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="padding: 0;background: black;">
+            <a class="navbar-brand" href="Index Photos/logo.png" target="_self" >
+                <img src="Index Photos/logo.png" style="width: 270px;">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#StudyRoomNavBar"  >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="StudyRoomNavBar">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item active ">
+                        <a class="nav-link text-primary" href="index.html"><b><i class="fas fa-home" style="color:purple;"></i> Home</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-book-open"></i> Book PDF</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Books Html/CN.html">Computer Network</a>
+                            <a class="dropdown-item" href="Books Html/TAFL.html">Theory Of Computation</a>
+                            <a class="dropdown-item" href="Books Html/OS.html">Operating System</a>
+                            <a class="dropdown-item" href="Books Html/DBMS.html">DBMS</a>
+                            <a class="dropdown-item" href="Books Html/Descrete.html">Discrete Mathematics</a>
+                            <a class="dropdown-item" href="Books Html/DS.html">Data Structure</a>
+                            <a class="dropdown-item" href="Books Html/COA.html">Computer Organization</a>
+                            <a class="dropdown-item" href="Books Html/Compiler.html">Compiler Design</a>
+                            <a class="dropdown-item" href="Books Html/Micro.html">Microprocessor</a>
+                            <a class="dropdown-item" href="Books Html/Algo.html">C &Algorithms</a>
+                            <a class="dropdown-item" href="Books Html/Java and python.html">JAVA AND PYTHON</a>
+                        </div>
+                    </li>
+                  
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="far fa-file-pdf"></i> Notes PDF</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Notes Html/CN.html">Computer Network</a>
+                            <a class="dropdown-item" href="Notes Html/TAFL.html">Theory Of Computation</a>
+                            <a class="dropdown-item" href="Notes Html/OS.html">Operating System</a>
+                            <a class="dropdown-item" href="Notes Html/DBMS.html">DBMS</a>
+                            <a class="dropdown-item" href="Notes Html/Descrete.html">Discrete Mathematics</a>
+                            <a class="dropdown-item" href="Notes Html/DS.html">Data Structure</a>
+                            <a class="dropdown-item" href="Notes Html/COA.html">Computer Organization</a>
+                            <a class="dropdown-item" href="Notes Html/Compiler.html">Compiler Design</a>
+                            <a class="dropdown-item" href="Notes Html/Micro.html">Microprocessor</a>
+                            <a class="dropdown-item" href="Notes Html/Algo.html">C &Algorithms</a>
+                            <a class="dropdown-item" href="Notes Html/Java and python.html">JAVA AND PYTHON</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:3000/">Faculty Zone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Owner.html">Dev:Aman Kushwaha</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--Slide Bar Carousel-->
+        <div id="slide" class="carousel slide" data-ride="carousel" >
+            <ul class="carousel-indicators">
+                <li data-target="#slide" data-slide-to="0" class="active"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                     <img src="Index Photos/carousel 1.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                         <h1 style="color:red; font-family:'Black Ops One';">Welcome To Alphazone</h1>
+                        <h3 style="font-family:'Bubblegum Sans';color:black;">Learn Here Lead Anywhere</h3>
+                        <button type="button" class="btn btn-success">Standard Engineering SoftCopy Books PDF</button>
+                        <button type="button" class="btn btn-danger">HandWritten Notes</button>
+                        <button type="button" class="btn btn-warning">Zoom Recording Sharing Facilityfor Professors</button>
+                    </div>
+                </div>                
+                <div class="carousel-item">
+                    <img src="Index Photos/carousel 2.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 style="color:red; font-family:'Black Ops One';">Welcome To Alphazone</h1>
+                        <h3 style="font-family:'Bubblegum Sans';color:black;">Learn Here Lead Anywhere</h3>
+                        <button type="button" class="btn btn-success">Standard Engineering SoftCopy Books PDF</button>
+                        <button type="button" class="btn btn-danger">HandWritten Notes</button>
+                        <button type="button" class="btn btn-warning">Zoom Recording Sharing Facilityfor Professors</button>
+                    </div>
+                </div>        
+                <div class="carousel-item">
+                    <img src="Index Photos/carousel 3.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 style="color:red; font-family:'Black Ops One';">Welcome To Alphazone</h1>
+                        <h3 style="font-family:'Bubblegum Sans';color:black;">Learn Here Lead Anywhere</h3>
+                        <button type="button" class="btn btn-success">Standard Engineering SoftCopy Books PDF</button>
+                        <button type="button" class="btn btn-danger">HandWritten Notes</button>
+                        <button type="button" class="btn btn-warning">Zoom Recording Sharing Facilityfor Professors</button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slide" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+
+
+        <!--2 Big Boxes-->
+        <div class="container mt-3">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-success">Books: <kbd>CSE</kbd></strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Standard Books of B.Tech CSE Department</a>
+                            </h3>
+                            <p class="card-text mb-auto ">Here You can Download/Open Soft Copy of Standard Books</p>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" src="Photos/Thumbnail1.jpg" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b46573a%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b46573a%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22130.7328125%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-success">Handwritten Notes:<kbd>CSE</kbd></strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Hand-Written Notes By GLA Students</a>
+                            </h3>
+                            <p class="card-text mb-auto ">Here You can Download/Open Soft Copy of Handwritten Notes</p>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" src="Photos/Thumbnail2.png" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b465747%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b465747%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22130.7328125%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <div class="album py-5 bg-light">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/cn.jpeg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <p class="card-text">Computer Network Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/CN.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/CN.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/dbms.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c92e%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c92e%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">DBMS Standard Books and Handwritten Notes.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/DBMS.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/DBMS.html">Notes</a></button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/co.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <p class="card-text">Computer Organization Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/COA.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/COA.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/discrete.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c92e%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c92e%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">Discrete Mathematics Standard Books and Handwritten Notes.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/Descrete.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/Descrete.html">Notes</a></button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/os.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c932%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c932%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">OS Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                            
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/OS.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/OS.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/ds.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c932%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c932%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">Data Structure Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                            
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/DS.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/DS.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                         <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/automata.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c929%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c929%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <p class="card-text">Automata Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/TAFL.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/TAFL.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                       
+                        
+                        
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/compiler.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c92e%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c92e%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">Compiler Standard Books and Handwritten Notes.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/Compiler.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/Compiler.html">Notes</a></button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/micro.jpg" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c932%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c932%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">Micro Processor Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                            
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/Micro.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/Micro.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/algo.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c932%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c932%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">Algorithm Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/Algo.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/Algo.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="Index Photos/python.png" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22362%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20362%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1753b70c932%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A18pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1753b70c932%22%3E%3Crect%20width%3D%22362%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22120.3359375%22%20y%3D%22120.45%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <p class="card-text">Python And java Standard Books and Handwritten Notes</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Books Html/Java and python.html">Books</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-success"><a href="Notes Html/Java and python.html">Notes</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Start Course  -->
+        <div class="container">
+            <div class="jumbotron pt-5 bg-light" id="Courses"> 
+                <h1 class="text-center" style="color:red; font-family:'Black Ops One';">Motive Of Alphazone ?</h1> <!-- Course Heading -->
+                <div class="row mt-4">       
+                    <div class="col-lg-6 mb-4">     
+                        <img src="Index Photos/zoom.jpg" alt="" class="img-fluid">
+                    </div>  
+
+                    <div class="col-lg-6">    
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Recording Sharing via Amazon AWS</h2> <br>
+                        <p>Alphazone Provides the facility so that Teachers can share their zoom recorded lectures on our portal And Students can watch these lectures.</p>
+                    </div>  
+                </div>  
+                
+
+                <div class="row mt-4">    
+                    <div class="col-lg-8"> 
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Handwritten Notes For All Branches</h2> <br>
+                        <p>Along with the Btech books PDF download links for all sems, we have jotted down a B.Tech Handwriiten notes as well  for each subject. Go with the following table and download your required academic year B.TECH Books PDF and avail max. marks in the exams.Hence, the knowledge shared here about B. Tech Books and Notes for all semesters will benefit you during the sem exams.</p>
+                    </div> 
+
+                    <div class="col-lg-4 mb-4">   
+                        <img src="Index Photos/Handwritten.png" alt="" class="img-fluid">
+                    </div>    
+                </div>    
+                
+                
+                 <div class="row mt-4">       
+                    <div class="col-lg-6 mb-4">    
+                        <img src="Index Photos/GLA Library.jpg" alt="" class="img-fluid">
+                    </div>  
+
+                    <div class="col-lg-6">   
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Standard Books For Engineering</h2> <br>
+                        <p>Students who are appearing for this academic year sem exams should download the B.Tech Books and Notes via the direct links provided on subject wise pages this page. Simply tap on the Download link and get the  PDF formats for all semesters and for each course. </p>
+                    </div> 
+                </div> 
+
+                
+            </div> 
+        </div>
+
+
+
+
+        <!--Assignments Jumbotron-->
+        <main role="main" class="container lead">
+            <div class="jumbotron">
+                <h1>Latest Assignments</h1>
+                <p class="lead">From here you can download latest assignments but please make your assignment self solved</p>
+                <a class="btn btn-lg btn-primary" href="http://localhost:3000/" role="button">Assignments »</a>
+            </div>
+        </main>
+
+
+
+
+        <!--Books Recommendation Chamber-->
+        <div class="container">
+            <div class="container text-dark "> 
+                <div class="bg-light display-4 font-weight-bold text-danger text-center border border-primary">Books For B.Tech CSE Students</div>
+                <div class="table-responsive">
+                    <table class="table table-md table-hover table-primary">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Sn.</th>
+                                <th>Book</th>
+                                <th>Writter</th>
+                                <th>Books Recommended By</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>DBMS</td>
+                                <td>Navathe</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Computer Networks</td>
+                                <td>Forouzan</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Operating System</td>
+                                <td>Galvin</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Compiler Design</td>
+                                <td>Ullman</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Logic Design</td>
+                                <td>Morris mano</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Computer Organisation</td>
+                                <td>Morris mano</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>C and Data structures</td>
+                                <td>K & RC C programming,Tenenbaum</td>
+                                <td>GLA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Algorithms</td>
+                                <td>Fundamentals of computer algorithms by horowitz sahni</td>
+                                <td>GLA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!--Youtube Video-->
+        <div class="container mb-5 w-75 h-25 " id="video">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe src="https://youtube.com/embed/ODaoI8noOuQ" ></iframe>
+            </div>
+        </div>
+
+
+
+
+        <!--Neeraj Sir's Motivational Quotes-->
+        <div class="container"> 
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success d-flex justify-content-between align-items-center">All our dreams can come true, if we have the courage to pursue them.” <span class="badge badge-primary badge-pill">– Walt Disney.</span></li>
+                <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">The secret of getting ahead is getting started.” <span class="badge badge-primary badge-pill">– Mark Twain.</span></li>
+                <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">Don't limit yourself.<span class="badge badge-primary badge-pill">– Neeraj Sir GLA </span></li>
+            </ul>
+        </div>
+
+
+
+
+
+        <!--Alert Box Example-->
+        <div class="container mt-4">
+            <div class="alert alert-success">
+                <button type="button" class="close" data-dismiss="alert">-Aman Kushwaha</button>
+                <strong>Thanks Guys!</strong>For Visiting My Website<a href="#video" class="alert-link">Study Room</a>.
+            </div>
+        </div>
+
+
+
+        <!-- The Modal -->
+        <div class="container">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Owner
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">CEO: Aman Kushwaha</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Front And Back-End Developer<br>
+                            Intern At: Huda Texas Web Development<br>
+                            Web:StudyRoom.com
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      
+        <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
+            <div class="container"> 
+                <div class="row py-3">   
+                    <div class="col-md-6">    
+                        <div>
+                            <span>Follow Me: </span>
+                            <a href="https://www.facebook.com/profile.php?id=100009725885406" target="_blank"><i class="fab fa-facebook-f px-1"></i></a>
+                            <a href="https://twitter.com/amankushwaha57" target="_blank"><i class="fab fa-twitter pr-1"></i></a>
+                            <a href="https://www.linkedin.com/in/aman-kushwaha-ba0038182/" target="_blank"><i class="fab fa-linkedin-in px-1"></i></a>
+                            <a href="https://www.instagram.com/the_amankushwaha/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>  
+                 
+                    <div class="col-md-6 text-right">
+                        <small> Dev:<a href="Owner.html" target="_blank">AMAN KUSHWAHA</a></small>
+                    </div>   
+                </div>  
+            </div>  
+        </footer> 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    </body>
+</html>
